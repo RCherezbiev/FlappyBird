@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		C43D6FC52AF954E1004FB7D1 /* FlappyBirdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D6FC42AF954E1004FB7D1 /* FlappyBirdApp.swift */; };
-		C43D6FC72AF954E1004FB7D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D6FC62AF954E1004FB7D1 /* ContentView.swift */; };
+		C43D6FC72AF954E1004FB7D1 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D6FC62AF954E1004FB7D1 /* GameView.swift */; };
 		C43D6FC92AF954E2004FB7D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43D6FC82AF954E2004FB7D1 /* Assets.xcassets */; };
 		C43D6FCC2AF954E2004FB7D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43D6FCB2AF954E2004FB7D1 /* Preview Assets.xcassets */; };
+		C43D6FD92AF9579E004FB7D1 /* BirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D6FD82AF9579E004FB7D1 /* BirdView.swift */; };
+		C43D6FDB2AF95990004FB7D1 /* PipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D6FDA2AF95990004FB7D1 /* PipeView.swift */; };
+		C43D6FDD2AF95D5A004FB7D1 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D6FDC2AF95D5A004FB7D1 /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C43D6FC12AF954E1004FB7D1 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43D6FC42AF954E1004FB7D1 /* FlappyBirdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyBirdApp.swift; sourceTree = "<group>"; };
-		C43D6FC62AF954E1004FB7D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C43D6FC62AF954E1004FB7D1 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		C43D6FC82AF954E2004FB7D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C43D6FCB2AF954E2004FB7D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C43D6FD82AF9579E004FB7D1 /* BirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdView.swift; sourceTree = "<group>"; };
+		C43D6FDA2AF95990004FB7D1 /* PipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipeView.swift; sourceTree = "<group>"; };
+		C43D6FDC2AF95D5A004FB7D1 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				C43D6FC42AF954E1004FB7D1 /* FlappyBirdApp.swift */,
-				C43D6FC62AF954E1004FB7D1 /* ContentView.swift */,
+				C43D6FC62AF954E1004FB7D1 /* GameView.swift */,
+				C43D6FD82AF9579E004FB7D1 /* BirdView.swift */,
+				C43D6FDA2AF95990004FB7D1 /* PipeView.swift */,
+				C43D6FDC2AF95D5A004FB7D1 /* ResultView.swift */,
 				C43D6FC82AF954E2004FB7D1 /* Assets.xcassets */,
 				C43D6FCA2AF954E2004FB7D1 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C43D6FC72AF954E1004FB7D1 /* ContentView.swift in Sources */,
+				C43D6FD92AF9579E004FB7D1 /* BirdView.swift in Sources */,
+				C43D6FC72AF954E1004FB7D1 /* GameView.swift in Sources */,
+				C43D6FDD2AF95D5A004FB7D1 /* ResultView.swift in Sources */,
+				C43D6FDB2AF95990004FB7D1 /* PipeView.swift in Sources */,
 				C43D6FC52AF954E1004FB7D1 /* FlappyBirdApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
